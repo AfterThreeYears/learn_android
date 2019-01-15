@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/button_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取输入框内容"
+        android:textAllCaps="false"/>
+    <Button
+        android:id="@+id/button_13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击增加进度"
+        android:textAllCaps="false"/>
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="6611111116666"
+        android:textColor="#abcdef"
+        android:textSize="34sp"></TextView>
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="placeholder"
+        android:maxLines="2"
+        ></EditText>
+    <ImageView
+        android:id="@+id/image_view1"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:src="@drawable/img_1"></ImageView>
+    <ImageView
+        android:id="@+id/image_view2"
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:src="@drawable/img_2"></ImageView>
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"></ProgressBar>
+</LinearLayout>
